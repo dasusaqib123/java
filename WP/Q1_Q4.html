@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hello_world</title>
+</head>
+<body>
+    <form onsubmit="std();return false;">
+        Name:<input type="text" id="name" placeholder="enetr Name"><br><br>
+        Age:<input type="number" id="age" placeholder="enetr Age"><br><br>
+        Course:<input type="text" id="course" placeholder="enetr Course"><br><br>
+        <button type="submit" value="submit">submit</button>
+    </form>
+    <script>
+        //Q1:
+        console.log("Welcome to javaScript");
+    </script>
+
+    <script>
+        //Q2:
+    function std()
+    {
+        let name=document.getElementById("name").value;
+        let age=document.getElementById("age").value;
+        let course=document.getElementById("course").value;
+
+        document.write("Name :"+name+ "<br>");
+        document.write("Age :"+age+ "<br>");
+        document.write("Course :"+course+ "<br>");
+    }
+    </script>
+
+    <script>
+        //Q3:
+        alert("hello ISTAR!");
+    </script>
+
+    <script>
+        //Q4:
+    var name = prompt("What is your name?");
+    alert("Hello, " + name + "!");
+    </script>
+
+    <script>
+        //Q5:
+        let name="samir";
+        name="abc";
+        alert(name);
+
+    </script>
+
+</body>
+</html>
